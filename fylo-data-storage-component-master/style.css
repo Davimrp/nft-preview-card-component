@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*Mobile First*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:  hsl(229, 57%, 11%) url(images/bg-mobile.png) no-repeat;
+    background-size: cover;
+    font-family: Raleway;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main{
+    width: 88%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box-1{
+    background-color: hsl(228, 56%, 26%);
+    max-width: 100%;
+    border-radius: 10px 80px 10px 10px;
+
+}
+
+.image{
+    padding: 40px 0px 15px 40px;
+}
+
+.icons{
+    margin-left: 40px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+
+.icons img{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.box-2{
+
+    margin-top: 20px;
+    background-color: hsl(228, 56%, 26%);
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+}
+
+.box-2 .text{
+    text-align: center;
+    width: 100%;
+    padding: 35px 20px 15px 20px;
+    color: white;
+}
+
+.gb{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 27px 10px 20px;
+}
+
+.balao{
+    position: absolute;
+    right: 30%;
+    top: 74%;
+    transform: translate(-1%, -10%);
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.692);
+    max-width: 160px;
+    max-height: 50px;
+    border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+
+.balao p{
+    margin-right: 10px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#p1{
+    font-size: 2em;
+    padding-left: 12px;
+}
+
+#p2{
+    color: gray;
+    font-weight: 600;
+}
+
+.progress-bar{
+    margin: auto;
+    width: 90%;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.progress-bar-color{
+    width: 75%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    border-radius: 10px
+}
+
+.ball{
+    width: 17px;
+    height: 17px;
+    background-color: hsl(243, 100%, 93%);
+    border-radius: 15px ;
+}
